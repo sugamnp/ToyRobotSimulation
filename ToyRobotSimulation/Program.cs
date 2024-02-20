@@ -35,7 +35,7 @@ namespace ToyRobotSimulation
                 case "PLACE":
                     if (args != null && args.Length == 3 && int.TryParse(args[0], out int x) && int.TryParse(args[1], out int y))
                     {
-                        robot.Place(x, y, args[2]);
+                        robot.Place(x, y, args[2].ToUpper());
                     }
                     else
                     {
