@@ -9,6 +9,9 @@ namespace ToyRobotSimulation
             ToyRobot robot = new ToyRobot();
 
             Console.WriteLine("---Toy Simulation---");
+            Console.WriteLine("Type 'Place' followed by a coordinate eg:'0,0,NORTH' to place the robot.");
+            Console.WriteLine("Use 'Move' to move the robot by one unit.");
+            Console.WriteLine("Use 'Left', 'Right', to change the robot's direction.");
 
             while (true)
             {
